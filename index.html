@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos</title>
+    <link rel="stylesheet" href="css/custo.css" />
+  </head>
+
+  <body>
+    <div class="contenedor-2">
+      <div class="img-conteiner">
+        <label for="inputFile" id="labelImge">UpLoad Img</label>
+        <input type="file" id="inputFile" value="" />
+        <div id="editor"></div>
+      </div>
+
+      <div class="conter-btn-mini">
+        <button class="btn-mini retro">/-</button>
+        <button class="btn-mini retro">-\</button>
+        <button class="btn-mini retro" id="btnSizeMore">+</button>
+        <button class="btn-mini retro" id="btnSizeLows">-</button>
+        <button class="btn-mini retro" id="btnMoveUp">^</button>
+        <button class="btn-mini retro" id="btnMoveDown">V</button>
+        <button class="btn-mini retro" id="btnMoveLeft">C</button>
+        <button class="btn-mini retro" id="btnMoveRigth">></button>
+        <button class="btn-mini retro" id="btnMoveCenter">|=|</button>
+        <button class="btn-mini retro" id="fullScreen">
+          Pantalla Completa
+        </button>
+        <a class="btn-mini retro" id="download">Descargar</a>
+      </div>
+      <div class="boxFilter">
+        <input type="range" id="rangeBrightness" />
+        <label for="rangebrightness">Brillo</label>
+        <input type="range" id="rangeConstrast" />
+        <label for="rangeConstrast">Contraste</label>
+        <input type="range" id="rangeSaturate" />
+        <label for="rangeSaturate">Saturación</label>
+        <input type="range" id="rangeBlur" value="0" />
+        <label for="rangeBlur">Difuminado</label>
+        <input type="range" id="rangeGrayscale" value="0" />
+        <label for="rangeGrayscale">Gris</label>
+        <input type="range" id="rangeHueRotate" value="0" />
+        <label for="rangeHueRotate">Tono</label>
+        <input type="range" name="" id="rangeSepia" value="0" />
+        <label for="rangeSepia">sepia</label>
+        <div class="conter-reset">
+          <button id="resetFilter" class="retro">Restablecer</button>
+        </div>
+      </div>
+      <div class="nota">
+        <article>
+          <h1>Editor de imágenes con HTML CSS y Java Scritp</h1>
+          <p>
+            Editor sencillo construido con las tecnologías típica de web
+            (HTML,CSS y JavaScript).
+            <br />
+            <br />
+            <i>Editas tu imanes favoritas con el estilo de la web</i>
+          </p>
+        </article>
+      </div>
+    </div>
+    <script src="js/img.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
