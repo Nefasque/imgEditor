@@ -4,7 +4,7 @@ Editor de imagenes Web.
 Un editor de imagenes sencillo contruido con los lenguajes basico de la web **HTML, CSS, JavaScript**
 
 ----
-![demo](./public/muestra.png)
+![demo](./public/muestra2.png)
 ---
 
 inicio rapido. 
